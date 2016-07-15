@@ -63,8 +63,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             let fullName = user.profile.name
             let givenName = user.profile.givenName
             let familyName = user.profile.familyName
-            let email = user.profile.email
+            let gEmail = user.profile.email
             // ...
+            UserData.userContact = Contact(name: fullName, email: gEmail)
+            UserData.userGroups = [Group(name: "Friends", desc: "My homies"), Group(name: "Family", desc: "The Fam")]
+            UserData.userGroups[0].addContact(Contact(name: "Frankie", email: "frank@gmail.com"))
+            UserData.userGroups[0].addAlert(Alert(name: "Frankie's Alert", desc: "frank", time: "9:00 PM"))
+            
+            UserData.userGroups[1].addContact(Contact(name: "Rodger", email: "rodger@gmail.com"))
+            UserData.userGroups[1].addAlert(Alert(name: "Rodger's Alert", desc: "rodger", time: "10:30 PM"))
             self.vc = self.window!.rootViewController as! ViewController
             self.vc!.bringToWindow();
         } else {
