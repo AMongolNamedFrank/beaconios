@@ -7,8 +7,17 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class HomeViewController:UIViewController {
+class HomeViewController:UIViewController, GIDSignInUIDelegate {
+    
+    @IBAction func LogoutBtn(sender: UIButton) {
+        GIDSignIn.sharedInstance().signOut();
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil);
+        let viewcontroller: ViewController = storyBoard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController;
+        self.presentViewController(viewcontroller, animated: true, completion:nil);
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

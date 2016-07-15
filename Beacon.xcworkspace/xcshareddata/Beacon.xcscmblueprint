@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "45972B3D1073FF29C649A665CF75BA3F6558FF90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "45972B3D1073FF29C649A665CF75BA3F6558FF90" : 0,
+    "A7A383E0BA879220968F25106E31F0DA0B217F8E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA9F14A9-E71B-40D1-90BC-F11D5068956C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "45972B3D1073FF29C649A665CF75BA3F6558FF90" : "Beacon\/",
+    "A7A383E0BA879220968F25106E31F0DA0B217F8E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Beacon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Beacon.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AMongolNamedFrank\/beaconios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45972B3D1073FF29C649A665CF75BA3F6558FF90"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/beaconios\/beaconios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7A383E0BA879220968F25106E31F0DA0B217F8E"
+    }
+  ]
+}

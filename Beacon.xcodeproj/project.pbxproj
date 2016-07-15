@@ -12,6 +12,18 @@
 		546A9B9A1D2C5D9200110F9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546A9B981D2C5D9200110F9E /* GoogleService-Info.plist */; };
 		546A9B9B1D2C5D9200110F9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546A9B981D2C5D9200110F9E /* GoogleService-Info.plist */; };
 		546A9B9D1D35F29700110F9E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9B9C1D35F29700110F9E /* HomeViewController.swift */; };
+		546A9BDB1D38263900110F9E /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BDA1D38263900110F9E /* MainTabViewController.swift */; };
+		546A9BDD1D38412300110F9E /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BDC1D38412300110F9E /* GroupsViewController.swift */; };
+		546A9BDF1D38440A00110F9E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BDE1D38440A00110F9E /* Group.swift */; };
+		546A9BE11D38441600110F9E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BE01D38441600110F9E /* Contact.swift */; };
+		546A9BE31D389EC800110F9E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BE21D389EC800110F9E /* UserData.swift */; };
+		546A9BE51D38A6C600110F9E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BE41D38A6C600110F9E /* Alert.swift */; };
+		546A9BE71D38A76A00110F9E /* GroupOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BE61D38A76A00110F9E /* GroupOptionsViewController.swift */; };
+		546A9BE91D38A7E700110F9E /* AlertTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BE81D38A7E700110F9E /* AlertTableView.swift */; };
+		546A9BEB1D38A7FE00110F9E /* MemberTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BEA1D38A7FE00110F9E /* MemberTableView.swift */; };
+		546A9BED1D394FBE00110F9E /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BEC1D394FBE00110F9E /* CreateGroupViewController.swift */; };
+		546A9BEF1D395C8800110F9E /* CreateAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BEE1D395C8800110F9E /* CreateAlertViewController.swift */; };
+		546A9BF11D395C9700110F9E /* CreateMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A9BF01D395C9700110F9E /* CreateMemberViewController.swift */; };
 		6BFC44AAAB691425277101F6 /* Pods_BeaconTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A80A1B2DC41598D5600451 /* Pods_BeaconTests.framework */; };
 		A191BD95EE7368AF0DA05670 /* Pods_Beacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170FCB7D2D31C43E61E9D370 /* Pods_Beacon.framework */; };
 		A4171FF01D1895DD00EC8360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4171FEF1D1895DD00EC8360 /* AppDelegate.swift */; };
@@ -44,6 +56,18 @@
 		170FCB7D2D31C43E61E9D370 /* Pods_Beacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		546A9B981D2C5D9200110F9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		546A9B9C1D35F29700110F9E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		546A9BDA1D38263900110F9E /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		546A9BDC1D38412300110F9E /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		546A9BDE1D38440A00110F9E /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		546A9BE01D38441600110F9E /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		546A9BE21D389EC800110F9E /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		546A9BE41D38A6C600110F9E /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		546A9BE61D38A76A00110F9E /* GroupOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupOptionsViewController.swift; sourceTree = "<group>"; };
+		546A9BE81D38A7E700110F9E /* AlertTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTableView.swift; sourceTree = "<group>"; };
+		546A9BEA1D38A7FE00110F9E /* MemberTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberTableView.swift; sourceTree = "<group>"; };
+		546A9BEC1D394FBE00110F9E /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		546A9BEE1D395C8800110F9E /* CreateAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAlertViewController.swift; sourceTree = "<group>"; };
+		546A9BF01D395C9700110F9E /* CreateMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMemberViewController.swift; sourceTree = "<group>"; };
 		7CC0B012852665B7D71048A1 /* Pods-Beacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beacon/Pods-Beacon.release.xcconfig"; sourceTree = "<group>"; };
 		8D186D8554D7950B588FFF84 /* Pods-BeaconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconTests/Pods-BeaconTests.release.xcconfig"; sourceTree = "<group>"; };
 		90F2010AD980AD259B487F39 /* Pods_BeaconUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeaconUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +170,18 @@
 				A4171FF11D1895DD00EC8360 /* ViewController.swift */,
 				546A9B9C1D35F29700110F9E /* HomeViewController.swift */,
 				A4171FF31D1895DD00EC8360 /* Main.storyboard */,
+				546A9BEE1D395C8800110F9E /* CreateAlertViewController.swift */,
+				546A9BF01D395C9700110F9E /* CreateMemberViewController.swift */,
+				546A9BEC1D394FBE00110F9E /* CreateGroupViewController.swift */,
+				546A9BE81D38A7E700110F9E /* AlertTableView.swift */,
+				546A9BEA1D38A7FE00110F9E /* MemberTableView.swift */,
+				546A9BE61D38A76A00110F9E /* GroupOptionsViewController.swift */,
+				546A9BE21D389EC800110F9E /* UserData.swift */,
+				546A9BE41D38A6C600110F9E /* Alert.swift */,
+				546A9BDC1D38412300110F9E /* GroupsViewController.swift */,
+				546A9BDE1D38440A00110F9E /* Group.swift */,
+				546A9BE01D38441600110F9E /* Contact.swift */,
+				546A9BDA1D38263900110F9E /* MainTabViewController.swift */,
 				A4171FF61D1895DD00EC8360 /* Assets.xcassets */,
 				A4171FFB1D1895DD00EC8360 /* Info.plist */,
 			);
@@ -434,9 +470,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546A9BE51D38A6C600110F9E /* Alert.swift in Sources */,
+				546A9BF11D395C9700110F9E /* CreateMemberViewController.swift in Sources */,
+				546A9BE91D38A7E700110F9E /* AlertTableView.swift in Sources */,
 				A4171FF21D1895DD00EC8360 /* ViewController.swift in Sources */,
+				546A9BDB1D38263900110F9E /* MainTabViewController.swift in Sources */,
+				546A9BE31D389EC800110F9E /* UserData.swift in Sources */,
+				546A9BEF1D395C8800110F9E /* CreateAlertViewController.swift in Sources */,
 				A4171FF01D1895DD00EC8360 /* AppDelegate.swift in Sources */,
+				546A9BDF1D38440A00110F9E /* Group.swift in Sources */,
+				546A9BEB1D38A7FE00110F9E /* MemberTableView.swift in Sources */,
+				546A9BED1D394FBE00110F9E /* CreateGroupViewController.swift in Sources */,
+				546A9BE71D38A76A00110F9E /* GroupOptionsViewController.swift in Sources */,
 				546A9B9D1D35F29700110F9E /* HomeViewController.swift in Sources */,
+				546A9BDD1D38412300110F9E /* GroupsViewController.swift in Sources */,
+				546A9BE11D38441600110F9E /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

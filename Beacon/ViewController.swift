@@ -11,26 +11,11 @@ import GoogleSignIn
 
 class ViewController:UIViewController, GIDSignInUIDelegate {
 
-    @IBOutlet var SignInStatus: UILabel!
-    
-    @IBOutlet var LogoutSignIn: UIButton!
-    @IBAction func LogoutButton(sender: AnyObject) {
-        GIDSignIn.sharedInstance().signOut()
-        updateSignInStatus(false)
-    }
-    
-    func updateSignInStatus(sIn: Bool) {
-        if(sIn) {
-            SignInStatus.text = "Signed In"
-        } else {
-            SignInStatus.text = "Signed Out"
-        }
-    }
     
     func bringToWindow() {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil);
-        let homeviewcontroller: HomeViewController = storyBoard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController;
-        self.presentViewController(homeviewcontroller, animated: true, completion:nil);
+        let maintabviewcontroller: MainTabViewController = storyBoard.instantiateViewControllerWithIdentifier("MainTabViewController") as! MainTabViewController;
+        self.presentViewController(maintabviewcontroller, animated: true, completion:nil);
         
     }
     
